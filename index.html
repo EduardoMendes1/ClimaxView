@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <main class="containerbox">
+            <div class="container-input">
+                <input type="text" name="city" id="city" class="input-city" placeholder="Qual a sua Cidade?">
+                <button class="search" onclick="ClickButton()">
+                    <img src="img/Search.svg" class="search-img">
+                </button>
+            </div>
+            <div class="container-temp">
+                <h2 class="title-city">
+                    Tempo em
+                </h2>
+                <div class="graus">
+                   
+                </div>
+                <div class="cloud-text">
+                    <img src="https://openweathermap.org/img/wn/04n.png" alt="Imagem do tempo" class="cloud">
+                    <p class="state"></p>
+                </div>
+
+                <h2 class="title-state">Umidade:</h2>
+
+            </div>
+
+        </main>
+    </div>
+
+
+    <script src="src/javascript.js"></script>
+</body>
+
+</html>
