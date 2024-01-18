@@ -6,9 +6,7 @@
 }
 body
 {
-    background-image: url("/img/backgroundmoon.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(to bottom, blue, cyan, rgb(254, 201, 210));
 }
 
 
