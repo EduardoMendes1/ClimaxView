@@ -6,7 +6,7 @@
 }
 body
 {
-    background: linear-gradient(to bottom, blue, cyan, rgb(254, 201, 210));
+    background: linear-gradient(90deg, blue, cyan, rgb(254, 201, 210));
 }
 
 
