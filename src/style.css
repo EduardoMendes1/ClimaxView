@@ -4,13 +4,6 @@
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-body
-{
-    background: linear-gradient(90deg, blue, cyan, rgb(254, 201, 210));
-}
-
-
-
 .containerbox{
    width: 400px;
    height: 300px;
@@ -47,6 +40,10 @@ input:hover{
     border-radius: 50%;
     text-align: center;
     background: #c3c3c3b2;
+    border: none;
+}
+.search:hover{
+    border: none;
 }
 .search-img{
     height: 30px;
@@ -79,9 +76,6 @@ input:hover{
 }
 .title-state{
     font-size: 23px;
-}
-@media (max-width: 1080px) {
-   
 }
 @media (max-width:920px) {
    
