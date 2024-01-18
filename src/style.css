@@ -83,16 +83,10 @@ input:hover{
     font-size: 23px;
 }
 @media (max-width: 1080px) {
-    body{
-        background-image: url("img/backgroundmoon.jpeg");
-        background-size: cover;
-    }
+   
 }
 @media (max-width:920px) {
-    body{
-        background-image: url("img/backgroundphoe.jpeg");
-        background-size: cover;
-    }   
+   
     .containerbox{
         width: 400px;
         height: 300px;
@@ -105,10 +99,6 @@ input:hover{
     }
 }
 @media (max-width:670px) {
-    body{
-        background-image: url("/img/backgroundphoe.jpeg");
-        background-size: cover;
-    }   
     .containerbox{
         width: 400px;
         height: 300px;
